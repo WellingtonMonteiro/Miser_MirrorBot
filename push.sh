@@ -21,7 +21,7 @@ echo -e "Trying Deploying your bot... Please Enter a uniqe appname"
 echo -e "Choose The Server Region\n"
 echo -e "1. US\n2. EU\n\nJust Press Enter For EU Region(Default)"
 read region
-region="${region:=1}"
+region="${region:=2}"
 if [ $region == 1 ]
 then
 region=us
