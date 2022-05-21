@@ -685,7 +685,6 @@ class GoogleDriveHelper:
                     content=content
                 )["path"]
             )
-        sleep(0.5)
         if len(path) > 1:
             telegraph.edit_telegraph(path, telegraph_content)
 
